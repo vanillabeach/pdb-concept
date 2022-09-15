@@ -17,7 +17,7 @@ const Footer = (props) => {
       <span>
         <a
           rel="noreferrer"
-          href="https://github.com/vanillabeach/lyra"
+          href="https://github.com/vanillabeach/pdb-concept"
           target="_blank"
         >
           GitHub Repo
