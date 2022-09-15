@@ -19,8 +19,8 @@ The demo can currently renders most standard molecules (caffeine, ethanol, parac
 
 ## Installation
 
-1. Make sure you have node/npm install.
-2. Clone this repo to your computer e.g. `$ git clone https://github.com/vanillabeach/lyra.git`
+1. Make sure you have [node/npm](https://nodejs.org/en/download/) installed.
+2. Clone this repo to your computer e.g. `$ git clone https://github.com/vanillabeach/pdb-concept.git`
 3. Run `$ npm install` to auto install the libraries.
 4. Once Step 3 is completed, run `$ npm start` to start the web app.
 5. Open your browser to `http://localhost:3000`
