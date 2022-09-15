@@ -15,7 +15,8 @@
 This is an early-stage project aimed at providing a comprehensive set of libraries to parse and
 visualise molecules (including biomolecules) obtained from the PDB format.
 
-The demo can currently renders most standard molecules (caffeine, ethanol, paracetamol, etc), and future versions will be able to render more complex proteins that require helix views, etc.
+The demo currently renders most standard molecules (caffeine, ethanol, paracetamol, etc), and future versions will be able to render more complex proteins that require helix views, etc. There is also support for hovering over individual atoms and connectors, as well as selecting and viewing data for a given atom. Future versions
+will also allow for data to be associated with each element.
 
 ## Installation
 
