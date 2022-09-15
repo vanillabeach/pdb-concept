@@ -1,0 +1,15 @@
+.pauseIcon,
+.playIcon {
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.pauseIcon {
+  background: url('../../public/media/icon_pause.svg') center center no-repeat;
+}
+
+.playIcon {
+  background: url('../../public/media/icon_play.svg') center center no-repeat;
+}

@@ -1,0 +1,7 @@
+.container {
+    position: relative;
+}
+
+canvas {
+    background-color: #00000011;
+}

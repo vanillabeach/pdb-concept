@@ -1,0 +1,30 @@
+.drop {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.controls {
+  margin-left: 20px;
+}
+
+.header {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-sizing: border-box;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-right: 20px;
+}
+
+.title {
+  width: 200px;
+}
