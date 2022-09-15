@@ -8,12 +8,12 @@ import PDBPrimitive from '../pdb_primitive';
 import Snippet from '../snippet';
 
 export default class Anisou extends PDBPrimitive {
-  serialNumber; // Atom serial number.
-  name; // Atom name.
-  alternateLocation; // Alternate location indicator.
-  residueName; // Residue name.
-  chainIdentifier; // Chain identifier.
-  residueSequenceNumber; // Residue sequence number.
+  serialNumber;
+  name;
+  alternateLocation;
+  residueName;
+  chainIdentifier;
+  residueSequenceNumber;
   insertionCode; // Insertion code.
   u_0_0; // U(1,1)
   u_1_1; // U(2,2)
@@ -21,8 +21,8 @@ export default class Anisou extends PDBPrimitive {
   u_0_1; // U(1,2)
   u_0_2; // U(1,3)
   u_1_2; // U(2,3)
-  element; // Element symbol, right-justified.
-  charge; // Charge on the atom.
+  element;
+  charge;
 
   constructor(args) {
     super();

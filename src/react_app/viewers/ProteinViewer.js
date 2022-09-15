@@ -1,6 +1,6 @@
 import { useRef, useEffect, React } from 'react';
 
-import StructureRenderer from '../three_js/renderers/structure_renderer';
+import StructureRenderer from '../../three_js/renderers/structure_renderer';
 
 let structureRenderer;
 

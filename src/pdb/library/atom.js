@@ -5,7 +5,7 @@
  * Definitions can be found at https://bit.ly/3BIPnv1
  */
 
-import { capitalize } from '../util';
+import { capitalize } from '../utils/text';
 import { CPK } from '../cpk_colourspace';
 import PDBPrimitive from '../pdb_primitive';
 

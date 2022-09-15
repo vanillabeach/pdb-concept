@@ -7,7 +7,7 @@ import Header from './layout/Header';
 import Footer from './layout/Footer';
 import Modal from './ui/Modal';
 
-import PDBLoader from './three_js/pdb_loader/pdb_loader';
+import PDBLoader from '../three_js/pdb_loader/pdb_loader';
 import ProteinViewer from './viewers/ProteinViewer';
 
 import PubSub from 'pubsub-js';
@@ -54,10 +54,7 @@ const App = (props) => {
         toggleAutoRotation={toggleAutoRotation}
         isAutoRotating={isAutoRotating}
       />
-      <Modal
-        modalData={modalData}
-        onClose={closeModalHandler}
-      />
+      <Modal modalData={modalData} onClose={closeModalHandler} />
       {structuredData && (
         <ProteinViewer
           className={classes.viewer}

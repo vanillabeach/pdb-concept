@@ -1,33 +1,35 @@
 import { Fragment } from 'react';
-import { elements } from '../pdb/periodic_table';
+import { elements } from '../../pdb/utils/periodic_table';
 import classes from './Modal.module.css';
 
-const getElementData = (name) => elements.filter(x => x.symbol.toLowerCase() === name.toLowerCase())[0];
+const getElementData = (name) =>
+  elements.filter((x) => x.symbol.toLowerCase() === name.toLowerCase())[0];
 
 const Modal = (props) => {
   const { modalData, onClose } = props;
 
-  const backgroundCss = modalData === null ?
-    classes.background :
-    [classes.background, classes.show].join(' ');
+  const backgroundCss =
+    modalData === null
+      ? classes.background
+      : [classes.background, classes.show].join(' ');
 
-  const elementData = modalData === null ? {} :
-    getElementData(modalData.getElement());
+  const elementData =
+    modalData === null ? {} : getElementData(modalData.getElement());
 
-  const elementDataRows = Object.keys(elementData).map(key => {
+  const elementDataRows = Object.keys(elementData).map((key) => {
     const keyName = key.toLowerCase();
-    if (keyName.startsWith('bohr') ||
+    if (
+      keyName.startsWith('bohr') ||
       keyName.startsWith('source') ||
       keyName.startsWith('spectral') ||
-      keyName.startsWith('summary')) {
+      keyName.startsWith('summary')
+    ) {
       return null;
     }
 
     return (
       <tr key={key} className={classes.tr}>
-        <td className={classes.td}>
-          {key.toLowerCase().replace(/_/gi, ' ')}
-        </td >
+        <td className={classes.td}>{key.toLowerCase().replace(/_/gi, ' ')}</td>
         <td className={classes.td}>{elementData[key]}</td>
       </tr>
     );
@@ -42,9 +44,7 @@ const Modal = (props) => {
               <button onClick={onClose} className={classes.close}>
                 ✖
               </button>
-              <h1>
-                Atom information
-              </h1>
+              <h1>Atom information</h1>
             </header>
             <article className={classes.article}>
               <table className={classes.table}>
