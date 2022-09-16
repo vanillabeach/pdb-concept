@@ -8,7 +8,7 @@
   </span>
 </div>
 
-# Protein Database Concept
+# Protein Data Nank Concept
 
 ## Introduction
 
@@ -27,7 +27,15 @@ will also allow for data to be associated with each element.
 5. Open your browser to `http://localhost:3000`
 6. Alternatively, run `$ npm run build` to build an optimised, static version of the site.
 
-## TODOs
+## Viewing PDB files
+
+1. Make sure your PDB file is correctly formatted to the Protein Data Bank standard. I recommend using 
+the [PDBe](https://www.ebi.ac.uk/pdbe/entry/search/index/?advancedSearch%3Atrue) website. It has a 
+sidebar with a [download option](https://github.com/vanillabeach/pdb-concept/blob/main/metadata/help/readme/pdbe_download_panel.png) for PDB files. You can also find some in the [examples/](https://github.com/vanillabeach/pdb-concept/tree/main/public/examples) folder in this repository.
+2. Drag the file into the [drop zone](https://github.com/vanillabeach/pdb-concept/blob/main/metadata/help/readme/pdb_drop_zone.png) at the top
+of the screen.
+
+### TODOs
 
 - Add additional 3d support for protein-specific PDB chains:
   - Helix
