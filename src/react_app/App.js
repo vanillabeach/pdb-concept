@@ -12,8 +12,8 @@ import ProteinViewer from './viewers/ProteinViewer';
 
 import PubSub from 'pubsub-js';
 
-const PROTEIN_CONTEXT = './proteins';
-const DEFAULT_PDB_FILE = `${PROTEIN_CONTEXT}/caffeine.pdb`;
+const EXAMPLES_FOLDER = './examples';
+const DEFAULT_PDB_FILE = `${EXAMPLES_FOLDER}/caffeine.pdb`;
 
 const App = (props) => {
   const dispatch = useDispatch();
