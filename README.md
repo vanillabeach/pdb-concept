@@ -8,7 +8,7 @@
   </span>
 </div>
 
-# Protein Data Nank Concept
+# Protein Data Bank Concept
 
 ## Introduction
 
@@ -29,9 +29,11 @@ will also allow for data to be associated with each element.
 
 ## Viewing PDB files
 
-1. Make sure your PDB file is correctly formatted to the Protein Data Bank standard. I recommend using 
+1. Make sure your PDB file is correctly formatted to the Protein Data Bank standard. 
+  * I recommend using 
 the [PDBe](https://www.ebi.ac.uk/pdbe/entry/search/index/?advancedSearch%3Atrue) website. It has a 
-sidebar with a [download option](https://github.com/vanillabeach/pdb-concept/blob/main/metadata/help/readme/pdbe_download_panel.png) for PDB files. You can also find some in the [examples/](https://github.com/vanillabeach/pdb-concept/tree/main/public/examples) folder in this repository.
+sidebar with a [download option](https://github.com/vanillabeach/pdb-concept/blob/main/metadata/help/readme/pdbe_download_panel.png) for PDB files. 
+  * You can also find some in the [examples/](https://github.com/vanillabeach/pdb-concept/tree/main/public/examples) folder in this repository.
 2. Drag the file into the [drop zone](https://github.com/vanillabeach/pdb-concept/blob/main/metadata/help/readme/pdb_drop_zone.png) at the top
 of the screen.
 
