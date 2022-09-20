@@ -1,10 +1,10 @@
 <div>
   <span>
-    <img src="https://github.com/vanillabeach/pdb-concept/blob/main/metadata/screenshot_1.png" width="256"/>
+    <img src="https://raw.githubusercontent.com/vanillabeach/pdb-concept/main/metadata/screenshot_1.png" width="256"/>
   </span>
   <span>&nbsp;&nbsp;&nbsp;</span>
   <span>
-    <img src="https://github.com/vanillabeach/pdb-concept/blob/main/metadata/screenshot_2.png" width="256"/>
+    <img src="https://raw.githubusercontent.com/vanillabeach/pdb-concept/main/metadata/screenshot_2.png" width="256"/>
   </span>
 </div>
 
