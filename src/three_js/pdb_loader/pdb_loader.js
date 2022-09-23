@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import Structure from '../../pdb/structure';
+import PDBStructure from '@vanillabeach/lyrax-model-library';
 
 function hash(s, e) {
   return 's' + Math.min(s, e) + 'e' + Math.max(s, e);
@@ -12,7 +12,7 @@ class PDBLoader extends THREE.Loader {
   #atomMap = {};
 
   parse(text) {
-    const structure = new Structure(text);
+    const structure = new PDBStructure(text);
 
     structure.getEntries().forEach((entry) => {
       switch (entry.getType()) {
